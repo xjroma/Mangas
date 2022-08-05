@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OwnerShip__c</fullName>
+    <externalId>false</externalId>
+    <label>OwnerShip</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ainhoa</fullName>
+                <default>false</default>
+                <label>Ainhoa</label>
+            </value>
+            <value>
+                <fullName>Cloe</fullName>
+                <default>false</default>
+                <label>Cloe</label>
+            </value>
+            <value>
+                <fullName>Jesus</fullName>
+                <default>false</default>
+                <label>Jesus</label>
+            </value>
+            <value>
+                <fullName>Monica</fullName>
+                <default>false</default>
+                <label>Monica</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
